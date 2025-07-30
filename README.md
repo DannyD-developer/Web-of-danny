@@ -30,7 +30,7 @@ La página incluye los siguientes elementos:
 
 Si GitHub Pages está habilitado, se podrá acceder al sitio desde la siguiente URL:
 
-https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO
+https://dannyd-developer.github.io/Web-of-danny/
 
 (Reemplazar con la URL real del repositorio una vez publicada la página)
 
