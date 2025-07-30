@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Define que el documento usa HTML5 -->
+
+<html lang="es">
+<!-- Indica que el idioma principal del contenido es español -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Permite usar caracteres especiales como tildes y ñ correctamente -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Hace que el sitio sea responsive en móviles y tablets -->
+
+  <title>Presentación personal</title>
+  <!-- Título que aparece en la pestaña del navegador -->
+</head>
+
+<body>
+
+  <!-- Cabecera del sitio: contiene el nombre y el menú de navegación -->
+  <header>
+
+    <div style="text-align: center;">
+      <h1>Danny Santiago Diaz Hernandez</h1>
+      <!-- El título principal de la página, centrado con CSS en línea -->
+    </div>
+
+    <nav>
+      <!-- Elemento semántico para la navegación principal del sitio -->
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- Facilita la navegación para usuarios y lectores de pantalla -->
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main>
+
+    <section id="sobre-mi">
+      <!-- Sección identificada con un id para navegación interna -->
+      <h2 style="color: brown;">¿Quién soy?</h2>
+      <!-- Título secundario dentro del contenido principal -->
+      <p>
+        Soy estudiante de Ingeniería en Software. Me apasiona la tecnología, el deporte y aprender idiomas.
+        Tengo experiencia como administrador, actualmente practico inglés y portugués todos los días.
+      </p>
+
+      <div style="text-align: center;">
+        <img src="imgdanny.jpeg" alt="Mi foto" width="430">
+        <!-- Imagen centrada. El atributo alt mejora la accesibilidad describiendo la imagen -->
+      </div>
+    </section>
+
+    <section>
+      <!-- Nueva sección para intereses personales -->
+      <h2 style="color: brown;">Mis intereses</h2>
+      <ul>
+        <li>Desarrollo web</li>
+        <li>Fútbol (Hincha del Atlético Nacional y Real Madrid)</li>
+        <li>Gimnasio y videojuegos</li>
+      </ul>
+      <!-- Lista no ordenada con intereses personales -->
+    </section>
+
+    <article id="contacto">
+      <!-- Artículo semántico con un id para navegación directa -->
+      <h2 style="color: brown;">Contacto</h2>
+      <form>
+        <!-- Formulario de contacto -->
+
+        <label for="nombre">Nombre:</label>
+        <!-- La etiqueta <label> está asociada al input con el atributo for, mejora la accesibilidad -->
+        <input type="text" id="nombre" name="nombre">
+
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <!-- Área para escribir un mensaje -->
+
+        <button type="submit" aria-label="Enviar mensaje de contacto">Enviar</button>
+        <!-- Botón de envío con un aria-label personalizado para que los lectores de pantalla describan su propósito -->
+      </form>
+    </article>
+
+  </main>
+
+  <!-- Pie de página del sitio -->
+  <footer>
+    <br><br>
+    <h1 style="color: dimgrey;">HECHO POR DANNY DIAZ</h1>
+    <!-- Encabezado en el pie de página con el nombre del autor del sitio -->
+  </footer>
+
+</body>
+</html>
