@@ -1,4 +1,4 @@
-# Presentación personal – Danny Santiago Díaz Hernández
+# Danny Santiago Díaz Hernández
 
 Este proyecto consiste en una página web desarrollada con HTML que presenta información personal como parte de un ejercicio práctico de desarrollo web.
 
