@@ -28,11 +28,7 @@ La página incluye los siguientes elementos:
 
 # Opción 2: A través de GitHub Pages
 
-Si GitHub Pages está habilitado, se podrá acceder al sitio desde la siguiente URL:
-
 https://dannyd-developer.github.io/Web-of-danny/
-
-(Reemplazar con la URL real del repositorio una vez publicada la página)
 
 # Autor
 
